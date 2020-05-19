@@ -1,0 +1,9 @@
+<h1>Welcome!</h1>
+<ul>
+    <li>Username: {{ user.username }}</li>
+    <li>Display name: {{ user.display_name }}</li>
+    <li>Age: {{ user.age }}</li>
+    <li>Homepage: {{ user.homepage }} *not real...*</li>
+</ul>
+<p>AUTH_USER_MODEL: {{ auth_user_model }}</p>
+<a href="{{ logout_url }}">Logout</a>
